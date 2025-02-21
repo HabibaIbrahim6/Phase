@@ -50,16 +50,22 @@ body{
 
 .index11{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
     gap: 10px; 
 }
 .index22{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
     gap: 10px; 
 }
 .index33{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
     gap: 10px;
 }
@@ -106,6 +112,11 @@ body{
         width: 90px;
         height: 90px;
         font-size: 35px;
+    }
+    .index11 , .index22 , .index33{ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
 }
